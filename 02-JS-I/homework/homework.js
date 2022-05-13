@@ -35,7 +35,7 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  var s = a + b;
+  var s = x + y;
   return(s);
 }
 
@@ -75,7 +75,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (srt1.length === srt2.length) {
+  if (str1.length === str2.length) {
     return(true);
   } else {
     return(false);
@@ -189,7 +189,8 @@ function esPositivo(numero) {
       return('Es negativo');
     } else {return(false);
     }
-}
+  }
+  }
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
@@ -258,12 +259,12 @@ function esVocal(letra){
   //Escribe tu código aquí
   if (letra.length == 1) {
     if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
-      console.log('Es vocal');
+      return('Es vocal');
     } else {
-      console.log('Dato incorrecto');
+      return('Dato incorrecto');
     }
   } else {
-    console.log('Dato incorrecto');
+    return('Dato incorrecto');
   }
 }
 
