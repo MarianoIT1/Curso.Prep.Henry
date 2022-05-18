@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+ul{
+    padding: 0 0 0 18px;
+}
+
+#sidebarId {
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    background: #bd5d38;
+    list-style:none
+
+
+
+}
+#contentId {
+    position: absolute;
+    left: 300px;
+    padding: 120px 80px;
+
+}
+
+.foto {
+    width: 180px;
+    margin: 180px 50px 70px;
+    border-radius: 50%;
+    border: 8px solid rgba(255, 255, 255, 0.4);
+}
+
+.datos {
+    text-align: center;
+    margin: 100px 0 0 -18px;
+    line-height: 2;
+    font-size: 22px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: whitesmoke;
+    text-transform: uppercase;
+    opacity: 0.75;
+    list-style: none;
+}
+
+h1 {
+    font-size: 90px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: #343a40;
+}
+
+.cambioColor {
+    color: #bd5d38;
+}
+
+.descrip {
+    font-size: 20px;
+    margin: -60px 0 60px 2px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: #343a40;
+    line-height: 1.4;
+    margin: 20px 0px;
+}
+
+
+.seccion1 {
+    display: inline-block;
+    position: absolute;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    width: 425px;
+    height: 250px;
+}
+
+.seccion2 {
+    display: inline-block;
+    position: absolute;
+    left: 500px;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    width: 480px;
+    height: 250px;
+}
+
+.seccion3 {
+    display: inline-block;
+    position: absolute;
+    left: 1050px;
+}
+
+.bloque2 {
+    position: absolute;
+    width: 100%;
+    top: 520px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: #343a40;
+    line-height: 1.4;
+    margin: 10px 0px 20px;
+}

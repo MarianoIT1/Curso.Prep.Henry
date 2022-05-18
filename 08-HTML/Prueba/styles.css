@@ -1,0 +1,25 @@
+
+#thirdDiv {
+	width: 500px;
+	height: 600px;
+	background: lightgrey;
+	padding: 50px;
+	border: 7px;
+	border-style: outset;
+	border-color: orangered;
+	border-radius: 30px;
+	}
+#spanId {
+	font-size: 18px;
+	margin: 50px;
+	}
+div {
+	text-align: center;
+	  margin: 0 auto;
+}
+body {
+	background: url('https://img.freepik.com/foto-gratis/vista-superior-rebanadas-pizza-salami_23-2148765311.jpg?w=2000');
+}
+.divClass {
+	color: white;
+}
